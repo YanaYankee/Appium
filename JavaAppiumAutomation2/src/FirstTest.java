@@ -3,11 +3,19 @@ import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
 
-public class FirstTest {
+
+//{
+//        "platformName": "Android",
+//        "deviceName": "AndroidTestDevice",
+//        "appPackage": "org.wikipedia",
+//        "appActivity": ".main.MainActivity"
+//        }
+public class FirstTest extends Helpers {
 
     private AppiumDriver driver;
 
@@ -34,6 +42,16 @@ public class FirstTest {
     @Test
     public void firstTest()
     {
+
+        WebElement elementSkip = findElementByName(driver, "SKIP");
+        elementSkip.click();
+    //    WebElement elementSkip = driver.findElementByXPath("//*[contains(@text, 'SKIP')]");//attention! do not use elementS, casts error
+
+
+     //   WebElement elementSearch = driver.findElementByXPath("//*[contains(@text, 'Search Wikipedia')]");//attention! do not use elementS, casts error
+        WebElement elementSearch = findElementByName(driver, "Search Wikipedia");
+        elementSearch.click();
+
         System.out.println("First test run");
     }
 }
