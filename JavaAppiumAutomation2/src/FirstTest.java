@@ -5,9 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.net.URL;
-
 
 //{
 //        "platformName": "Android",
@@ -42,16 +42,23 @@ public class FirstTest extends Helpers {
     @Test
     public void firstTest()
     {
-
+    //   WebElement elementSearch = driver.findElementByXPath("//*[contains(@text, 'Search Wikipedia')]");//attention! do not use elementS, casts error
+    //    WebElement elementSkip = driver.findElementByXPath("//*[contains(@text, 'SKIP')]");//attention! do not use elementS, casts error
         WebElement elementSkip = findElementByName(driver, "SKIP");
         elementSkip.click();
-    //    WebElement elementSkip = driver.findElementByXPath("//*[contains(@text, 'SKIP')]");//attention! do not use elementS, casts error
+
+        WebElement element_to_init_search = findElementByName(driver, "Search Wikipedia");
+        element_to_init_search.click();
+
+        WebElement element_to_enter_search_line = waitForElementPresentByXpath(
+                createXPath("Search Wikipedia"),
+                "Cannot fined searched input",
+                5,
+                driver
+        );
 
 
-     //   WebElement elementSearch = driver.findElementByXPath("//*[contains(@text, 'Search Wikipedia')]");//attention! do not use elementS, casts error
-        WebElement elementSearch = findElementByName(driver, "Search Wikipedia");
-        elementSearch.click();
-
-        System.out.println("First test run");
+     // findElementByName(driver, "Search Wikipedia");
+        element_to_enter_search_line.sendKeys("Appium");
     }
 }
