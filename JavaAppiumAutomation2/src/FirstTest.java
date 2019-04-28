@@ -26,7 +26,7 @@ public class FirstTest extends Helpers {
 
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "AndroidTestDevice");
-        capabilities.setCapability("platformVersion", "9");
+        capabilities.setCapability("platformVersion", "8");
      // capabilities.setCapability("automationName", "Appium"); Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
         capabilities.setCapability("appPackage", "org.wikipedia");
         capabilities.setCapability("appActivity", ".main.MainActivity");
@@ -44,21 +44,35 @@ public class FirstTest extends Helpers {
     {
     //   WebElement elementSearch = driver.findElementByXPath("//*[contains(@text, 'Search Wikipedia')]");//attention! do not use elementS, casts error
     //    WebElement elementSkip = driver.findElementByXPath("//*[contains(@text, 'SKIP')]");//attention! do not use elementS, casts error
-        WebElement elementSkip = findElementByName(driver, "SKIP");
-        elementSkip.click();
 
+ // User opens app and skips intro
+//        WebElement elementSkip = findElementByName(driver, "SKIP");
+//        elementSkip.click();
+// User taps Search Wikipedia
         WebElement element_to_init_search = findElementByName(driver, "Search Wikipedia");
         element_to_init_search.click();
-
+// User taps Search input and types Java
         WebElement element_to_enter_search_line = waitForElementPresentByXpath(
                 createXPath("Search Wikipedia"),
                 "Cannot fined searched input",
-                5,
                 driver
+
         );
-
-
      // findElementByName(driver, "Search Wikipedia");
-        element_to_enter_search_line.sendKeys("Appium");
+        element_to_enter_search_line.sendKeys("Java");
+
+
+        waitForElementPresentByXpath(
+                createXPathResourceId("org.wikipedia:id/page_list_item_container", "Object-oriented programming language"),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                20
+
+        );
     }
+
+    // User taps Search input and types Java
+
+
 }
+
