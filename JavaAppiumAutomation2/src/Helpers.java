@@ -1,4 +1,5 @@
 import io.appium.java_client.AppiumDriver;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -42,20 +43,6 @@ public class Helpers {
         );
     }
 
-
-//    public WebElement waitForElementPresentById(String id, String error_message, AppiumDriver driver, long timeoutInSeconds )
-//    {
-//        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
-//        wait.withMessage(error_message + "\n");
-//        By by = By.id(id);
-//
-//        return  wait.until(
-//                ExpectedConditions.presenceOfElementLocated(by)
-//        );
-//    }
-
-
-
 //method reloading (5 secs timeout by default, add another number if needed within call)
     public WebElement waitForElementPresent(By by, String error_message, AppiumDriver driver)
     {
@@ -70,12 +57,6 @@ public class Helpers {
         return element;
     }
 
-//    public WebElement waitForElementByIdAndClick(String id, String error_message, AppiumDriver driver, long timeoutInSeconds)
-//    {
-//        WebElement element = waitForElementPresentById( id,  error_message,  driver,  timeoutInSeconds);
-//        element.click();
-//        return element;
-//    }
 
     public WebElement waitForElementAndSendKeys(By by, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
     {
@@ -94,5 +75,20 @@ public class Helpers {
                 ExpectedConditions.invisibilityOfElementLocated(by)
         );
     }
+    public WebElement WaitForElementAndClear(By by,String error_message, AppiumDriver driver, long timeoutInSeconds )
+    {
+        WebElement element = waitForElementPresent( by,  error_message, driver, timeoutInSeconds);
+        element.clear();
+        return element;
+    }
+    public WebElement TextExistanceAssert(By by,String error_message, AppiumDriver driver, long timeoutInSeconds, String text) {
+        WebElement element = waitForElementPresent( by ,error_message, driver, timeoutInSeconds ) ;
 
+        element.getAttribute("text");
+        Assert.assertEquals("We see unexpected title",
+                "Java (programming language)",
+                text
+        );
+        return element;
+    }
 }

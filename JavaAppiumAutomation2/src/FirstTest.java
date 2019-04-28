@@ -1,9 +1,11 @@
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
@@ -38,38 +40,43 @@ public class FirstTest extends Helpers {
     {
         driver.quit();
     }
+
     @Test
-    public void firstTest()
-    {
+    public void testClearAndCancelSearch() {
         waitForElementAndClick(
-               By.xpath(createXPath("Search Wikipedia")),
-                "Cannot find 'Search Wikipedia' input",
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipadia' input",
                 driver,
-                5
+                15
         );
         waitForElementAndSendKeys(
-                By.xpath(
-                        createXPath(
-                                "Search Wikipedia"
-                        )
-                ),
+                By.xpath(   createXPath("Search Wikipedia")   ),
                 "Java",
                 "Cannot find searched input",
                 driver,
                 5
         );
-        waitForElementPresent(
-                By.xpath(
-                        createXPathResourceId(
-                        "org.wikipedia:id/page_list_item_container",
-                        "Object-oriented programming language"
-                        )
-                ),
-                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+        WaitForElementAndClear (
+                By.id("org.wi kipedia:id/search_src_text"),
+                "Cannot find search field",
                 driver,
-                20
-       );
+                5
+        );
+//to check the test the following method is to be commented
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_close_btn"),
+                "Cannot find X to cancel search",
+                driver,
+                5
+        );
+        WaitForElementNotPresent(
+                By.id("org.wikipedia:id/search_close_btn"),
+                "X is still present on the page",
+                driver,
+                5
+        );
     }
+
 
     @Test
     public void testCancelSearch() {
@@ -94,8 +101,70 @@ public class FirstTest extends Helpers {
         );
     }
 
-    // User taps Search input and types Java
 
+    @Test
+    public void firstTest()
+    {
+        waitForElementAndClick(
+               By.xpath(createXPath("Search Wikipedia")),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
+        );
+        waitForElementAndSendKeys(
+                By.xpath(   createXPath("Search Wikipedia")    ),
+                "Java",
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        waitForElementPresent(
+                By.xpath(  createXPathResourceId("org.wikipedia:id/page_list_item_container",
+                                "Object-oriented programming language")   ),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                20
+       );
+    }
+
+
+    @Test
+    public void testCompareArticleTitle(){
+        waitForElementAndClick(
+                By.xpath(createXPath("Search Wikipedia")),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
+        );
+        waitForElementAndSendKeys(
+                By.xpath(   createXPath("Search Wikipedia")    ),
+                "Java",
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        waitForElementAndClick(
+                By.xpath(  createXPathResourceId("org.wikipedia:id/page_list_item_container",
+                        "Object-oriented programming language")   ),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                7
+        );
+        WebElement title_element = waitForElementPresent(
+                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                "Cannot find article title",
+                driver,
+                15
+        );
+        String article_title = title_element.getAttribute("text");
+        Assert.assertEquals(
+                "We see unexpected title",
+//                "Java (programming language)1", // to check if test fails
+                "Java (programming language)",
+                article_title
+
+        );
+          }
 
 }
 
