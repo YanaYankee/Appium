@@ -41,6 +41,52 @@ public class FirstTest extends Helpers {
         driver.quit();
     }
 
+   //Написать тест, который: Ищет какое-то слово. Убеждается, что найдено несколько стате.
+    // Отменяет поиск. Убеждается, что результат поиска пропал
+
+    @Test
+    public void testSearchAndCheckResultsAndCancel() {
+
+ // 1. Searches for "Selenium"
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                15
+        );
+        waitForElementAndSendKeys(
+                By.id("org.wikipedia:id/search_src_text"),
+               "Selenium",
+      //       "Seleniumdk;sv", //check the next step really works
+
+                "Cannot find searched input",
+                driver,
+                5
+        );
+ //2. Checks if that some articles are enlisted in the search result
+        waitForElementPresent(
+                By.id("org.wikipedia:id/search_results_list"),
+                "Search result is empty",
+                driver,
+                5
+        );
+//3. Cancel search
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_close_btn"),
+                "Cannot find X to cancel search",
+                driver,
+                5
+        );
+//4. Check if search result articles list closed
+        WaitForElementNotPresent(
+                By.id("org.wikipedia:id/search_results_list"),
+                "Search list was not closed",
+                driver,
+                5
+        );
+    }
+
+
     @Test
     public void testClearAndCancelSearch() {
         waitForElementAndClick(
