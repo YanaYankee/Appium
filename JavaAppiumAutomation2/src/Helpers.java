@@ -31,34 +31,68 @@ public class Helpers {
 
     }
 
-    public WebElement waitForElementPresentByXpath(String xpath, String error_message, AppiumDriver driver, long timeoutInSeconds )
+    public WebElement waitForElementPresent(By by, String error_message, AppiumDriver driver, long timeoutInSeconds )
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
-        By by = By.xpath(xpath);
+
 
         return  wait.until(
                 ExpectedConditions.presenceOfElementLocated(by)
         );
     }
 
+
+//    public WebElement waitForElementPresentById(String id, String error_message, AppiumDriver driver, long timeoutInSeconds )
+//    {
+//        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+//        wait.withMessage(error_message + "\n");
+//        By by = By.id(id);
+//
+//        return  wait.until(
+//                ExpectedConditions.presenceOfElementLocated(by)
+//        );
+//    }
+
+
+
 //method reloading (5 secs timeout by default, add another number if needed within call)
-    public WebElement waitForElementPresentByXpath(String xpath, String error_message, AppiumDriver driver)
+    public WebElement waitForElementPresent(By by, String error_message, AppiumDriver driver)
     {
-        return waitForElementPresentByXpath(xpath, error_message, driver, 5);
+        return waitForElementPresent(by, error_message, driver, 5);
     }
 
 
-    public WebElement waitForElementByXpathAndClick(String xpath, String error_message, AppiumDriver driver, long timeoutInSeconds)
+    public WebElement waitForElementAndClick(By by, String error_message, AppiumDriver driver, long timeoutInSeconds)
     {
-        WebElement element = waitForElementPresentByXpath( xpath,  error_message,  driver,  timeoutInSeconds);
+        WebElement element = waitForElementPresent( by,  error_message,  driver,  timeoutInSeconds);
         element.click();
         return element;
     }
-    public WebElement waitForElementByXpathAndSendKeys(String xpath, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
+
+//    public WebElement waitForElementByIdAndClick(String id, String error_message, AppiumDriver driver, long timeoutInSeconds)
+//    {
+//        WebElement element = waitForElementPresentById( id,  error_message,  driver,  timeoutInSeconds);
+//        element.click();
+//        return element;
+//    }
+
+    public WebElement waitForElementAndSendKeys(By by, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
     {
-        WebElement element = waitForElementPresentByXpath( xpath,  error_message, driver, timeoutInSeconds);
+        WebElement element = waitForElementPresent( by,  error_message, driver, timeoutInSeconds);
         element.sendKeys(value);
         return element;
     }
+
+    public boolean WaitForElementNotPresent(By by,String error_message, AppiumDriver driver, long timeoutInSeconds )
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+        wait.withMessage(error_message + "\n");
+
+
+        return  wait.until(
+                ExpectedConditions.invisibilityOfElementLocated(by)
+        );
+    }
+
 }
