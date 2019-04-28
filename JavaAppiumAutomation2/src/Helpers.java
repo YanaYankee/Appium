@@ -49,13 +49,13 @@ public class Helpers {
     }
 
 
-    public WebElement waitForElementAndClick(String xpath, String error_message, AppiumDriver driver, long timeoutInSeconds)
+    public WebElement waitForElementByXpathAndClick(String xpath, String error_message, AppiumDriver driver, long timeoutInSeconds)
     {
         WebElement element = waitForElementPresentByXpath( xpath,  error_message,  driver,  timeoutInSeconds);
         element.click();
         return element;
     }
-    public WebElement waitForElementAndSendKeys(String xpath, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
+    public WebElement waitForElementByXpathAndSendKeys(String xpath, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
     {
         WebElement element = waitForElementPresentByXpath( xpath,  error_message, driver, timeoutInSeconds);
         element.sendKeys(value);

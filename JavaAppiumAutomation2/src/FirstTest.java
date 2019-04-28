@@ -3,9 +3,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.net.URL;
 
@@ -43,7 +41,7 @@ public class FirstTest extends Helpers {
     public void firstTest()
     {
 
-        waitForElementAndClick(
+        waitForElementByXpathAndClick(
                 createXPath("Search Wikipedia"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
@@ -51,7 +49,7 @@ public class FirstTest extends Helpers {
         );
 
 
-        waitForElementAndSendKeys(
+        waitForElementByXpathAndSendKeys(
                 createXPath("Search Wikipedia"),
                 "Java",
                 "Cannot find searched input",
