@@ -27,7 +27,7 @@ public class FirstTest extends Helpers {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "AndroidTestDevice");
         capabilities.setCapability("platformVersion", "8");
-     // capabilities.setCapability("automationName", "Appium"); Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
+        // capabilities.setCapability("automationName", "Appium"); Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
         capabilities.setCapability("appPackage", "org.wikipedia");
         capabilities.setCapability("appActivity", ".main.MainActivity");
         capabilities.setCapability("app", "/Users/yaninapavlyk/Desktop/GIT/Appium/JavaAppiumAutomation2/apks/org.wikipedia.apk");
@@ -42,24 +42,22 @@ public class FirstTest extends Helpers {
     @Test
     public void firstTest()
     {
-    //   WebElement elementSearch = driver.findElementByXPath("//*[contains(@text, 'Search Wikipedia')]");//attention! do not use elementS, casts error
-    //    WebElement elementSkip = driver.findElementByXPath("//*[contains(@text, 'SKIP')]");//attention! do not use elementS, casts error
 
- // User opens app and skips intro
-//        WebElement elementSkip = findElementByName(driver, "SKIP");
-//        elementSkip.click();
-// User taps Search Wikipedia
-        WebElement element_to_init_search = findElementByName(driver, "Search Wikipedia");
-        element_to_init_search.click();
-// User taps Search input and types Java
-        WebElement element_to_enter_search_line = waitForElementPresentByXpath(
+        waitForElementAndClick(
                 createXPath("Search Wikipedia"),
-                "Cannot fined searched input",
-                driver
-
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
         );
-     // findElementByName(driver, "Search Wikipedia");
-        element_to_enter_search_line.sendKeys("Java");
+
+
+        waitForElementAndSendKeys(
+                createXPath("Search Wikipedia"),
+                "Java",
+                "Cannot find searched input",
+                driver,
+                5
+        );
 
 
         waitForElementPresentByXpath(
