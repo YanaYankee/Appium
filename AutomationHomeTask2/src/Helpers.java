@@ -81,14 +81,5 @@ public class Helpers {
         element.clear();
         return element;
     }
-    public WebElement TextExistanceAssert(By by,String error_message, AppiumDriver driver, long timeoutInSeconds, String text) {
-        WebElement element = waitForElementPresent( by ,error_message, driver, timeoutInSeconds ) ;
 
-        element.getAttribute("text");
-        Assert.assertEquals("We see unexpected title",
-                "Java (programming language)",
-                text
-        );
-        return element;
-    }
 }

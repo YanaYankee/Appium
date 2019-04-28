@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="497">
+              <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-790">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="350">
+              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,18 +197,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testCancelSearch - 2019.04.28 at 17h 34m 57s.xml">
-      <configuration name="FirstTest.testCancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCancelSearch - 2019.04.28 at 17h 36m 21s.xml">
-      <configuration name="FirstTest.testCancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCancelSearch - 2019.04.28 at 17h 52m 54s.xml">
-      <configuration name="FirstTest.testCancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.04.28 at 17h 54m 11s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_testClearAndCancelSearch - 2019.04.28 at 18h 04m 32s.xml">
       <configuration name="FirstTest.testClearAndCancelSearch" configurationId="JUnit" />
     </history-entry>
@@ -231,6 +214,18 @@
     </history-entry>
     <history-entry file="FirstTest - 2019.04.28 at 19h 25m 03s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testClearAndCancelSearch - 2019.04.28 at 19h 27m 16s.xml">
+      <configuration name="FirstTest.testClearAndCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testClearAndCancelSearch - 2019.04.28 at 19h 28m 06s.xml">
+      <configuration name="FirstTest.testClearAndCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testClearAndCancelSearch - 2019.04.28 at 19h 37m 27s.xml">
+      <configuration name="FirstTest.testClearAndCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testClearAndCancelSearch - 2019.04.28 at 19h 40m 06s.xml">
+      <configuration name="FirstTest.testClearAndCancelSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -278,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-790">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -288,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="497">
+          <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -45,10 +45,27 @@ public class FirstTest extends Helpers {
     public void testClearAndCancelSearch() {
         waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
-                "Cannot find 'Search Wikipadia' input",
+                "Cannot find 'Search Wikipedia' input",
                 driver,
                 15
         );
+
+//Написать функцию, которая проверяет наличие текста “Search…”
+// в строке поиска перед вводом текста и помечает тест упавшим, если такого текста нет.
+        WebElement search_text = waitForElementAndClick(
+                By.id("org.wikipedia:id/search_src_text"),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
+        );
+        String search_input = search_text.getAttribute("text");
+        Assert.assertEquals(
+                "Cannot find text 'Search…' in Search input",
+                "Search…",
+                search_input
+
+        );
+//**********************************************************************
         waitForElementAndSendKeys(
                 By.xpath(   createXPath("Search Wikipedia")   ),
                 "Java",
@@ -56,6 +73,8 @@ public class FirstTest extends Helpers {
                 driver,
                 5
         );
+
+
         WaitForElementAndClear (
                 By.id("org.wikipedia:id/search_src_text"),
                 "Cannot find search field",
