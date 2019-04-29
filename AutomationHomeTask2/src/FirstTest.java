@@ -10,6 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
 
+
 //{
 //        "platformName": "Android",
 //        "deviceName": "AndroidTestDevice",
@@ -41,11 +42,54 @@ public class FirstTest extends Helpers {
         driver.quit();
     }
 
-   //Написать тест, который: Ищет какое-то слово. Убеждается, что найдено несколько стате.
+
+
+    //Ex.4
+    // Написать тест, который:
+    //Ищет какое-то слово
+    //Убеждается, что в каждом результате поиска есть это слово.
+
+    @Test
+    public void testSearchAndCheckSearchWordInResults() {
+
+        // 1. Searches for "Selenium"
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                15
+        );
+        waitForElementAndSendKeys(
+                By.id("org.wikipedia:id/search_src_text"),
+                "Selenium",
+                //       "Seleniumdk;sv", //check the next step really works
+
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        //2. Checks if that some articles are enlisted in the search result
+        waitForElementPresent(
+                By.id("org.wikipedia:id/search_results_list"),
+                "Search result is empty",
+                driver,
+                5
+        );
+//3. Checks if the word is in each item of search result list
+        CheckElementsToHaveWord(
+                driver,
+                "resource-id",
+                "org.wikipedia:id/page_list_item_title",
+                "Selenium");
+        //"Selenium"); //to check if test works
+
+    }
+//********************************************************************************************
+    //Написать тест, который: Ищет какое-то слово. Убеждается, что найдено несколько стате.
     // Отменяет поиск. Убеждается, что результат поиска пропал
 
     @Test
-    public void testSearchAndCheckResultsAndCancel() {
+    public void testSearchAndCheckResultsAndCancel(){
 
  // 1. Searches for "Selenium"
         waitForElementAndClick(
@@ -184,7 +228,7 @@ public class FirstTest extends Helpers {
                 5
         );
         waitForElementPresent(
-                By.xpath(  createXPathResourceId("org.wikipedia:id/page_list_item_container",
+                By.xpath(  createXPathKey("resource-id", "org.wikipedia:id/page_list_item_container",
                                 "Object-oriented programming language")   ),
                 "Cannot find 'Object-oriented programming language' searching by 'Java'",
                 driver,
@@ -209,7 +253,7 @@ public class FirstTest extends Helpers {
                 5
         );
         waitForElementAndClick(
-                By.xpath(  createXPathResourceId("org.wikipedia:id/page_list_item_container",
+                By.xpath(  createXPathKey("resource-id", "org.wikipedia:id/page_list_item_container",
                         "Object-oriented programming language")   ),
                 "Cannot find 'Object-oriented programming language' searching by 'Java'",
                 driver,
@@ -227,9 +271,9 @@ public class FirstTest extends Helpers {
 //                "Java (programming language)1", // to check if test fails
                 "Java (programming language)",
                 article_title
-
         );
-          }
+
+    }
 
 }
 
