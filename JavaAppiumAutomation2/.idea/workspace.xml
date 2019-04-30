@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/src/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

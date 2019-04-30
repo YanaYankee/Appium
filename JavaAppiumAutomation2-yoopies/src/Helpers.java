@@ -55,4 +55,29 @@ public class Helpers {
 
     }
 
+
+    public WebElement waitForElementPresent(By by, String error_message, AppiumDriver driver, long timeoutInSeconds )
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+        wait.withMessage(error_message + "\n");
+
+
+        return  wait.until(
+                ExpectedConditions.presenceOfElementLocated(by)
+        );
+    }
+    public WebElement waitForElementAndClick(By by, String error_message, AppiumDriver driver, long timeoutInSeconds)
+    {
+        WebElement element = waitForElementPresent( by,  error_message,  driver,  timeoutInSeconds);
+        element.click();
+        return element;
+    }
+
+    public WebElement waitForElementAndSendKeys(By by, String value, String error_message, AppiumDriver driver, long timeoutInSeconds)
+    {
+        WebElement element = waitForElementPresent( by,  error_message, driver, timeoutInSeconds);
+        element.sendKeys(value);
+        return element;
+    }
+
 }

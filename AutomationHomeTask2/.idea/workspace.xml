@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+            <state relative-caret-position="1960">
+              <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="74" column="47" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="47" />
+            <state relative-caret-position="560">
+              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,6 +69,10 @@
       <find>id</find>
       <find>createXPathKey</find>
       <find>waitForElementPresent</find>
+      <find>waitForElementAndSendKeys</find>
+      <find>driver.findElements()</find>
+      <find>createXPathSimp</find>
+      <find>createXP</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +81,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Helpers.java" />
         <option value="$PROJECT_DIR$/src/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/Helpers.java" />
       </list>
     </option>
   </component>
@@ -240,7 +251,7 @@
     <frame x="12" y="50" width="1360" height="850" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19423369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25065964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25065964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,20 +304,20 @@
     <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="74" column="47" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="47" />
+        <state relative-caret-position="1960">
+          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        <state relative-caret-position="560">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

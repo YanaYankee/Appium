@@ -7,9 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.net.URL;
-
 
 //{
 //        "platformName": "Android",
@@ -157,7 +155,7 @@ public class FirstTest extends Helpers {
         );
 //**********************************************************************
         waitForElementAndSendKeys(
-                By.xpath(   createXPath("Search Wikipedia")   ),
+                By.xpath(   createXPathContains("Search Wikipedia")   ),
                 "Java",
                 "Cannot find searched input",
                 driver,
@@ -185,8 +183,6 @@ public class FirstTest extends Helpers {
                 5
         );
     }
-
-
     @Test
     public void testCancelSearch() {
         waitForElementAndClick(
@@ -210,18 +206,17 @@ public class FirstTest extends Helpers {
         );
     }
 
-
     @Test
     public void firstTest()
     {
         waitForElementAndClick(
-               By.xpath(createXPath("Search Wikipedia")),
+               By.xpath(createXPathContains("Search Wikipedia")),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 5
         );
         waitForElementAndSendKeys(
-                By.xpath(   createXPath("Search Wikipedia")    ),
+                By.xpath(   createXPathContains("Search Wikipedia")    ),
                 "Java",
                 "Cannot find searched input",
                 driver,
@@ -240,13 +235,13 @@ public class FirstTest extends Helpers {
     @Test
     public void testCompareArticleTitle(){
         waitForElementAndClick(
-                By.xpath(createXPath("Search Wikipedia")),
+                By.xpath(createXPathContains("Search Wikipedia")),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 5
         );
         waitForElementAndSendKeys(
-                By.xpath(   createXPath("Search Wikipedia")    ),
+                By.xpath(   createXPathContains("Search Wikipedia")    ),
                 "Java",
                 "Cannot find searched input",
                 driver,
