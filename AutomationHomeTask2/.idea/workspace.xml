@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/apks/app-beta-debug.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/out/production/JavaAppiumAutomation2/Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/src/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/apks/org.wikipedia.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +31,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1960">
-              <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+            <state relative-caret-position="334">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,11 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-745">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,16 +85,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="50" />
-    <option name="width" value="1360" />
-    <option name="height" value="850" />
+    <option name="x" value="160" />
+    <option name="y" value="23" />
+    <option name="width" value="1212" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +135,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apks" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -142,50 +152,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testClearAndCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testClearAndCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="testClearAndCancelSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="testCompareArticleTitle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testSearchAndCheckResultsAndCancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testSearchAndCheckResultsAndCancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="testSearchAndCheckResultsAndCancel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testSearchAndCheckSearchWordInResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testSearchAndCheckSearchWordInResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="testSearchAndCheckSearchWordInResults" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -194,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.FirstTest.testSearchAndCheckSearchWordInResults" />
-        <item itemvalue="JUnit.FirstTest.testSearchAndCheckResultsAndCancel" />
-        <item itemvalue="JUnit.FirstTest.testClearAndCancelSearch" />
-        <item itemvalue="JUnit.FirstTest.testCompareArticleTitle" />
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.testSearchAndCheckSearchWordInResults" />
+        <item itemvalue="JUnit.Tests.testSearchAndCheckResultsAndCancel" />
+        <item itemvalue="JUnit.Tests.testClearAndCancelSearch" />
+        <item itemvalue="JUnit.Tests.testCompareArticleTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -248,10 +258,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="50" width="1360" height="850" extended-state="0" />
+    <frame x="160" y="23" width="1212" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21880342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +270,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25065964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24203822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,9 +293,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/FirstTest.java</url>
+          <url>file://$PROJECT_DIR$/src/Tests.java</url>
           <line>52</line>
-          <properties class="FirstTest" method="testSearchAndCheckSearchWordInResults">
+          <properties class="Tests" method="testSearchAndCheckSearchWordInResults">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
@@ -304,23 +314,22 @@
     <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+        <state relative-caret-position="334">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-745">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>

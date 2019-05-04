@@ -1,6 +1,10 @@
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileDriver;
+import io.appium.java_client.TouchAction;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -90,5 +94,59 @@ public class Helpers {
                 text
         );
         return element;
+    }
+
+    protected void swipeUp(int timeOfSwipe, WebDriver driver) {
+        TouchAction action = new TouchAction((MobileDriver) driver);
+        Dimension size = driver.manage().window().getSize();
+
+        int x = size.width / 2;
+        int y_start = (int) (size.height * 0.8);
+        int y_end = (int) (size.height * 0.2);
+
+        action
+                .press(x, y_start)
+                .waitAction(timeOfSwipe)
+                .moveTo(x, y_end)
+                .release()
+                .perform();
+    }
+    protected void swipeUpQuick(WebDriver driver) {
+        swipeUp(200, driver);
+    }
+    protected void swipeUpToElement(By by, String error_message, WebDriver driver, int max_swipes){
+//        driver.findElements(by);
+//        driver.findElements(by).size();
+        int already_swiped = 0;
+
+        while(driver.findElements(by).size() == 0) {
+
+            if (already_swiped > max_swipes) {
+                waitForElementPresent(by, "Cannot find element by swiping. \n" + error_message, (AppiumDriver) driver, 0);
+                return;
+            }
+            swipeUpQuick(driver);
+            ++already_swiped;
+        }
+    }
+    protected void swipeElementToLeft(By by, String error_message, WebDriver driver){
+        WebElement element = waitForElementPresent(
+                by,
+                error_message,
+                (AppiumDriver) driver,
+                10);
+        int left_x = element.getLocation().getX(); //the most left point on X
+        int right_x = left_x + element.getSize().getWidth();//the most left point on X + element width;
+        int upper_y = element.getLocation().getY();
+        int lower_y = upper_y + element.getSize().getHeight();
+        int middle_y = (upper_y+lower_y) / 2;
+
+        TouchAction action = new TouchAction((MobileDriver) driver);
+        action
+                .press(right_x, middle_y)
+                .waitAction(300)
+                .moveTo(left_x,middle_y)
+                .release()
+                .perform();
     }
 }
