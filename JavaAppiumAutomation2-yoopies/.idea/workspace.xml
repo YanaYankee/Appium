@@ -2,21 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/apks/app-beta-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/ci-scripts/runemulator.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/libs/java-client-4.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/libs/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/libs/selenium-server-standalone-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/src/tests/java/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/src/tests/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/java_client_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/selenium_server_standalone_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/selenium_support_2_53_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/apks/app-beta-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/ci-scripts/runemulator.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/java-client-4.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/junit-jupiter-api-5.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/maven/selenium-support-2.53.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/selenium-server-standalone-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/selenium-support-2.53.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/src/test/java/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/src/test/java/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/yoopiesTestsForJenkins.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/src/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apks/app-beta-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-scripts/runemulator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ci-scripts/runemulator.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/apks/org.wikipedia.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/apks/.org.wikipedia.apk.icloud" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-805">
-              <caret line="57" column="96" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
+            <state relative-caret-position="203">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,15 +65,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="780">
               <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3432#3433#0" expanded="true" />
-                <element signature="e#3468#3469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +105,7 @@
       <find>createXPath</find>
       <find>Cannot find 44 Rue Ordener on select address</find>
       <find>waitForElementAndClick</find>
+      <find>maven</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,13 +117,14 @@
         <option value="$PROJECT_DIR$/src/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/Tests.java" />
         <option value="$PROJECT_DIR$/src/Helpers.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="45" />
-    <option name="y" value="40" />
-    <option name="width" value="1194" />
+    <option name="y" value="24" />
+    <option name="width" value="1140" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,17 +148,13 @@
             <path>
               <item name="JavaAppiumAutomation2-yoopies" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAppiumAutomation2-yoopies" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppiumAutomation2-yoopies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAppiumAutomation2-yoopies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -137,6 +164,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -250,10 +278,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="40" width="1194" height="877" extended-state="1" />
+    <frame x="45" y="24" width="1140" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21614583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19034608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +290,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32356688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32356688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,25 +367,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        <state relative-caret-position="203">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3432#3433#0" expanded="true" />
-            <element signature="e#3468#3469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-805">
-          <caret line="57" column="96" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
+        <state relative-caret-position="780">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>

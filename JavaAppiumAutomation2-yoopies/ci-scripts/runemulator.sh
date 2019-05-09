@@ -1,1 +1,1 @@
-emulator @Nexus_5_API_26
+emulator @Nexus_5_API_26 &
