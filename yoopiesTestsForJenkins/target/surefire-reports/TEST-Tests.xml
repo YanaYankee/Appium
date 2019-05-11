@@ -1,128 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="0" failures="0" name="Tests" time="0" errors="0" skipped="0">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="AndroidJobMaven"/>
-    <property name="ANDROID_TMP_LOGCAT_FILE" value="/Users/Shared/Jenkins/tmp/logcat_6115648167494223398.log"/>
-    <property name="PWD" value="/"/>
-    <property name="ANDROID_SERIAL" value="emulator-5742"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="/Users/Shared/Jenkins/Home"/>
-    <property name="PATH" value="${PATH}:$JAVA_HOME/bin:$ANDROID_HOME/emulator:/$ANDROID_HOME/platform-tools:/$ANDROID_HOME/tools:/$ANDROID_HOME/tool/bin:/$HOME/maven/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin:/Users/yaninapavlyk/Library/Android/sdk/emulator://Users/yaninapavlyk/Library/Android/sdk/platform-tools://Users/yaninapavlyk/Library/Android/sdk/tools://Users/yaninapavlyk/Library/Android/sdk/tool/bin://Users/yaninapavlyk/maven/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
-    <property name="HUDSON_SERVER_COOKIE" value="83efcb0f4e43904c"/>
-    <property name="POM_ARTIFACTID" value="yoopiesTestsForJenkins"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="PATH+SDK_TOOLS" value="/Users/yaninapavlyk/Library/Android/sdk/tools/"/>
-    <property name="ANDROID_AVD_DEVICE" value="emulator-5742"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="yoopiesTestsForJenkins"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
-    <property name="ANDROID_AVD_USER_PORT" value="5742"/>
-    <property name="user.name" value="yaninapavlyk"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="AndroidJobMaven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/AndroidJobMaven/51/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#51"/>
-    <property name="TMPDIR" value="/var/folders/8l/xqhkb0v17rn5st8vyjzy0t4h0000gn/T/"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
-    <property name="PATH+SDK_PLATFORM_TOOLS" value="/Users/yaninapavlyk/Library/Android/sdk/platform-tools/"/>
-    <property name="ANDROID_AVD_DENSITY" value="320"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="XPC_FLAGS" value="0x0"/>
-    <property name="user.timezone" value="Europe/Kiev"/>
-    <property name="ANDROID_AVD_RESOLUTION" value="768x1280"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="51"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="SHELL" value="/bin/bash"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="maven.conf" value="/Users/yaninapavlyk/maven/conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="UA"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.14.4"/>
-    <property name="ANDROID_AVD_SKIN" value="768x1280"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/AndroidJobMaven/51/display/redirect"/>
-    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
-    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
-    <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.201-b09"/>
-    <property name="JAVA_MAIN_CLASS_32482" value="Main"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/AndroidJobMaven/display/redirect"/>
-    <property name="SHLVL" value="0"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="LOGNAME" value="yaninapavlyk"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="ANDROID_ADB_SERVER_PORT" value="5866"/>
-    <property name="HOME" value="/Users/yaninapavlyk"/>
-    <property name="POM_GROUPID" value="fr.yoopies"/>
-    <property name="user.home" value="/Users/yaninapavlyk"/>
-    <property name="BUILD_TAG" value="jenkins-AndroidJobMaven-51"/>
-    <property name="JENKINS_SERVER_COOKIE" value="83efcb0f4e43904c"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="XPC_SERVICE_NAME" value="org.jenkins-ci"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="/Users/yaninapavlyk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="ANDROID_AVD_ADB_PORT" value="5743"/>
-    <property name="ANDROID_AVD_OS" value="android-26"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="/Users/yaninapavlyk/maven"/>
-    <property name="java.class.path" value="/Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/Users/yaninapavlyk/maven/boot/plexus-classworlds-2.6.0.jar:/Users/yaninapavlyk/maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/yaninapavlyk/maven /Users/Shared/Jenkins/Home/war/WEB-INF/lib/remoting-3.29.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 49990"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/yaninapavlyk/Desktop/GIT/Appium/yoopiesTestsForJenkins"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="/Users/yaninapavlyk/maven"/>
-    <property name="java.awt.headless" value="true"/>
-    <property name="java.io.tmpdir" value="/var/folders/8l/xqhkb0v17rn5st8vyjzy0t4h0000gn/T/"/>
-    <property name="HUDSON_HOME" value="/Users/Shared/Jenkins/Home"/>
-    <property name="PATH+MAVEN" value="/Users/yaninapavlyk/maven/bin"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/AndroidJobMaven/51/"/>
-    <property name="ANDROID_AVD_LOCALE" value="en_US"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="JENKINS_ANDROID_HOME" value="/Users/yaninapavlyk/Library/Android/sdk"/>
-    <property name="com.apple.java.jvmTask" value="CommandLine"/>
-    <property name="java.ext.dirs" value="/Users/yaninapavlyk/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="test" value="Tests#loginLogoutTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/yaninapavlyk/Desktop/GIT/Appium/yoopiesTestsForJenkins"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/AndroidJobMaven/"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8l/xqhkb0v17rn5st8vyjzy0t4h0000gn/T/"/>
     <property name="line.separator" value="
 "/>
-    <property name="JAVA_ARCH" value="x86_64"/>
-    <property name="MAVEN_HOME" value="/Users/yaninapavlyk/maven"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="51"/>
-    <property name="ANDROID_HOME" value="/Users/yaninapavlyk/Library/Android/sdk"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="maven3.interceptor" value="/Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
-    <property name="WORKSPACE" value="/Users/Shared/Jenkins/Home/Users/yaninapavlyk/Desktop/GIT/Appium/yoopiesTestsForJenkins"/>
-    <property name="maven3.interceptor.common" value="/Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="//Users/yaninapavlyk/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yaninapavlyk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="//Users/yaninapavlyk/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="library.jansi.path" value="//Users/yaninapavlyk/maven/lib/jansi-native"/>
+    <property name="user.home" value="/Users/yaninapavlyk"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="ANDROID_SDK" value="/Users/yaninapavlyk/Library/Android/sdk"/>
-    <property name="USER" value="yaninapavlyk"/>
-    <property name="ANDROID_AVD_NAME" value="hudson_en-US_320_768x1280_android-26_x86_Nexus_4_API_26"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yaninapavlyk"/>
+    <property name="java.class.path" value="//Users/yaninapavlyk/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=Tests#loginLogoutTest test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="/Users/yaninapavlyk/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="maven.home" value="/Users/yaninapavlyk/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
 </testsuite>

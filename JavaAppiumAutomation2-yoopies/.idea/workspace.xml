@@ -2,44 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/apks/app-beta-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/ci-scripts/runemulator.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/libs/java-client-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/libs/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/libs/selenium-server-standalone-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/src/tests/java/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Maven/src/tests/java/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/java_client_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/junit_jupiter_api_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/selenium_server_standalone_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/libraries/selenium_support_2_53_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/apks/app-beta-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/ci-scripts/runemulator.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/java-client-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/junit-jupiter-api-5.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/maven/selenium-support-2.53.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/selenium-server-standalone-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/resources/selenium-support-2.53.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/src/test/java/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/src/test/java/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/yoopiesTestsForJenkins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationHomeTask2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../androidYoopiesTests/.idea/libraries/selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../androidYoopiesTests/src/main/resources/selenium-api-3.141.59.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-scripts/runemulator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ci-scripts/runemulator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apks/app-beta-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/apks/app-beta-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Helpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation2/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/apks/.org.wikipedia.apk.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2/out/production/JavaAppiumAutomation2/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/apks/app-beta-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../androidYoopiesTests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../androidYoopiesTests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../androidYoopiesTests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../androidYoopiesTests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../androidYoopiesTests/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../androidYoopiesTests/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../androidYoopiesTests/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../androidYoopiesTests/target/test-classes/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/apks/app-beta-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/TEST-Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/Tests/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/old/Tests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/old/Tests/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yoopiesTestsForJenkins/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="347">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,20 +52,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/IntroPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/BottomMenuPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Helpers.java">
+        <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/RegisterSecondScreenPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+            <state relative-caret-position="82">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/CountriesSpinner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +120,18 @@
       <find>Cannot find Skip btn</find>
       <find>createXPath</find>
       <find>Cannot find 44 Rue Ordener on select address</find>
-      <find>waitForElementAndClick</find>
       <find>maven</find>
+      <find>waitForElementAndClick</find>
+      <find>helper</find>
+      <find>asse</find>
+      <find>Cannot find PASSWORD inputafter clicking l</find>
+      <find>swipeUpToElement</find>
+      <find>webd</find>
+      <find>appiu</find>
+      <find>asser</find>
+      <find>initRegisterConfirmAddress</find>
+      <find>phon</find>
+      <find>REGISTER_BUTTON_INIT_ELEMENT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,16 +141,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/Tests.java" />
         <option value="$PROJECT_DIR$/src/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/LoginPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/LogOutArrowPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/SignInSignUpPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/RegisterTopOfFirstScreenPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/RegisterBottomOfFirstScreenPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/MainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/NextBtnPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/RegisterSecondScreenPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/CountriesSpinner.java" />
+        <option value="$PROJECT_DIR$/src/Tests.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/IntroPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/lib/java/ui/BottomMenuPageObject.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="24" />
-    <option name="width" value="1140" />
+    <option name="x" value="124" />
+    <option name="y" value="23" />
+    <option name="width" value="1183" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,12 +193,23 @@
               <item name="JavaAppiumAutomation2-yoopies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaAppiumAutomation2-yoopies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppiumAutomation2-yoopies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppiumAutomation2-yoopies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppiumAutomation2-yoopies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,6 +221,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test.lib.java" />
+      <recent name="test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apks" />
     </key>
@@ -183,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.registerAndMySituationSettings">
+  <component name="RunManager">
     <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
@@ -203,21 +261,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.loginLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testLoginLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="loginLogoutTest" />
+      <option name="METHOD_NAME" value="testLoginLogoutTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.registerAndMySituationSettings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testRegisterAndMySituationSettings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="registerAndMySituationSettings" />
+      <option name="METHOD_NAME" value="testRegisterAndMySituationSettings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,8 +283,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.registerAndMySituationSettings" />
-        <item itemvalue="JUnit.Tests.loginLogoutTest" />
+        <item itemvalue="JUnit.Tests.testRegisterAndMySituationSettings" />
+        <item itemvalue="JUnit.Tests.testLoginLogoutTest" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.firstTest" />
       </list>
@@ -246,42 +304,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 13h 46m 14s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.11 at 15h 43m 55s.xml">
+      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 13h 51m 40s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.11 at 15h 53m 33s.xml">
+      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 13h 59m 37s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.11 at 16h 04m 25s.xml">
+      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 14h 06m 46s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.11 at 16h 18m 10s.xml">
+      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 14h 13m 42s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 17h 40m 44s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 14h 15m 37s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 17h 50m 14s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_loginLogoutTest - 2019.05.03 at 14h 18m 28s.xml">
-      <configuration name="Tests.loginLogoutTest" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 17h 56m 24s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_loginLogoutTest - 2019.05.03 at 14h 20m 36s.xml">
-      <configuration name="Tests.loginLogoutTest" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 18h 01m 12s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 14h 22m 57s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 18h 03m 32s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_registerAndMySituationSettings - 2019.05.03 at 14h 29m 00s.xml">
-      <configuration name="Tests.registerAndMySituationSettings" configurationId="JUnit" />
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.11 at 18h 14m 54s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="24" width="1140" height="877" extended-state="0" />
+    <frame x="124" y="23" width="1183" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19034608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18930763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,15 +348,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32356688" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995618" visible="true" weight="0.32356688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004382" side_tool="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -309,7 +367,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24017791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18930763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,19 +376,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25504783" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995618" weight="0.32356688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004382" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -342,15 +400,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tests.java</url>
-          <line>41</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tests.java</url>
-          <line>15</line>
+          <line>6</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tests.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -367,10 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/io/appium/java_client/AppiumDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -379,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -389,8 +453,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="543">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2066">
+          <caret line="241" column="19" selection-start-line="241" selection-start-column="19" selection-end-line="241" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/LogOutArrowPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/SignInSignUpPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/RegisterTopOfFirstScreenPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/RegisterBottomOfFirstScreenPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/NextBtnPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3464#3465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/LoginPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/CountriesSpinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/IntroPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/RegisterSecondScreenPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lib/java/ui/BottomMenuPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

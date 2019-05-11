@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="selenium-api-3.141.59">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/selenium-api-3.141.59.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
