@@ -37,8 +37,13 @@ public class Tests extends Helpers {
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
 
+// ******************************* Ex 7 (Rotate screen) ***********************
+// ****************  Set orientation before each test ***********************
 
+        driver.rotate(ScreenOrientation.PORTRAIT);
 
+//*************************************************************
+        
     }
     @After
     public void tearDown()
