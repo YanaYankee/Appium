@@ -158,5 +158,14 @@ public class Helpers {
         }
     }
 
+public String waitForElementAndGetAttribute(By by, String attribute, WebDriver driver, String error_message, long timeOutInSeconds){
+
+    WebElement element = waitForElementPresent(
+            by,
+            error_message,
+            (AppiumDriver) driver,
+            timeOutInSeconds);
+        return element.getAttribute(attribute);
+}
 }
 

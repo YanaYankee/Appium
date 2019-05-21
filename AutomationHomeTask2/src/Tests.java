@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -44,6 +45,67 @@ public class Tests extends Helpers {
     {
         driver.quit();
     }
+
+
+  @Test
+  public void testChangeScreenOrientationOnSearchResults(){
+
+      waitForElementAndClick(
+              By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+              "Cannot find 'Search Wikipedia' input",
+              driver,
+              5
+      );
+      String search_line = "Java";
+      waitForElementAndSendKeys(
+              By.xpath( "//*[contains(@text, 'Search Wikipedia')]"),
+              search_line,
+              "Cannot find searched input",
+              driver,
+              5
+      );
+      waitForElementAndClick(
+              By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']" ),
+              "Cannot find 'Object-oriented programming language' searching by '" + search_line + "'",
+              driver,
+              15
+      );
+      String title_before_rotation = waitForElementAndGetAttribute(
+              By.id("org.wikipedia:id/view_page_title_text"),
+              "text",
+              driver,
+              "Cannot find title of article",
+              15
+              );
+
+        driver.rotate(ScreenOrientation.LANDSCAPE);
+      String title_after_rotation = waitForElementAndGetAttribute(
+              By.id("org.wikipedia:id/view_page_title_text"),
+              "text",
+              driver,
+              "Cannot find title of article",
+              15
+      );
+      Assert.assertEquals(
+              "Article title have been changed after rotation",
+              title_before_rotation,
+              title_after_rotation
+      );
+      driver.rotate(ScreenOrientation.PORTRAIT);
+      String title_after_second_rotation = waitForElementAndGetAttribute(
+              By.id("org.wikipedia:id/view_page_title_text"),
+              "text",
+              driver,
+              "Cannot find title of article",
+              15
+      );
+      Assert.assertEquals(
+              "Article title have been changed after rotation",
+              title_before_rotation,
+              title_after_second_rotation
+      );
+
+  }
 
 
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae354b01-e847-4b4b-9c2f-8f5ad3f17dab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAppiumAutomation2-yoopies/apks/app-beta-debug.apk" beforeDir="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            <state relative-caret-position="260">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+            <state relative-caret-position="436">
+              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +59,6 @@
     <findStrings>
       <find>reso</find>
       <find>id</find>
-      <find>waitForElementPresent</find>
       <find>waitForElementAndSendKeys</find>
       <find>driver.findElements()</find>
       <find>createXP</find>
@@ -84,8 +84,9 @@
       <find>title</find>
       <find>Appium</find>
       <find>title_element</find>
-      <find>name_second_article</find>
       <find>present</find>
+      <find>name_second_article</find>
+      <find>waitForElementPresent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,22 +171,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.assertElementPresent">
+  <component name="RunManager" selected="JUnit.Tests.testChangeScreenOrientationOnSearchResults">
     <configuration name="Tests.amountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="amountOfEmptySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.amountOfNotEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="amountOfNotEmptySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,6 +202,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.testChangeScreenOrientationOnSearchResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testChangeScreenOrientationOnSearchResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.testSearchAndCheckSearchWordInResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
@@ -223,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.testChangeScreenOrientationOnSearchResults" />
         <item itemvalue="JUnit.Tests.assertElementPresent" />
         <item itemvalue="JUnit.Tests.saveTwoArticlesToMyList" />
         <item itemvalue="JUnit.Tests.amountOfEmptySearch" />
         <item itemvalue="JUnit.Tests.testSearchAndCheckSearchWordInResults" />
-        <item itemvalue="JUnit.Tests.amountOfNotEmptySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -245,18 +246,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_testSearchAndCheckSearchWordInResults - 2019.05.21 at 10h 55m 57s.xml">
-      <configuration name="Tests.testSearchAndCheckSearchWordInResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_amountOfEmptySearch - 2019.05.21 at 10h 56m 40s.xml">
-      <configuration name="Tests.amountOfEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_amountOfEmptySearch - 2019.05.21 at 10h 57m 47s.xml">
-      <configuration name="Tests.amountOfEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_saveTwoArticlesToMyList - 2019.05.21 at 11h 28m 45s.xml">
-      <configuration name="Tests.saveTwoArticlesToMyList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests_saveTwoArticlesToMyList - 2019.05.21 at 11h 41m 24s.xml">
       <configuration name="Tests.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
@@ -274,6 +263,18 @@
     </history-entry>
     <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 12m 24s.xml">
       <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 19m 32s.xml">
+      <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testChangeScreenOrientationOnSearchResults - 2019.05.21 at 12h 37m 12s.xml">
+      <configuration name="Tests.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testChangeScreenOrientationOnSearchResults - 2019.05.21 at 12h 38m 54s.xml">
+      <configuration name="Tests.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testChangeScreenOrientationOnSearchResults - 2019.05.21 at 12h 40m 00s.xml">
+      <configuration name="Tests.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -322,8 +323,8 @@
     <entry file="file://$PROJECT_DIR$/src/CoreTestCase.java" />
     <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+        <state relative-caret-position="436">
+          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -332,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        <state relative-caret-position="260">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
