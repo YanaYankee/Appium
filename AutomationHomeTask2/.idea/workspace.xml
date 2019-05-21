@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            <state relative-caret-position="399">
+              <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="354">
+              <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,9 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>waitForElementAndClick</find>
-      <find>fir</find>
-      <find>key</find>
       <find>reso</find>
       <find>id</find>
       <find>waitForElementPresent</find>
@@ -86,6 +83,9 @@
       <find>programming</find>
       <find>title</find>
       <find>Appium</find>
+      <find>title_element</find>
+      <find>name_second_article</find>
+      <find>present</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,9 +102,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="154" />
+    <option name="x" value="368" />
     <option name="y" value="-1056" />
-    <option name="width" value="1524" />
+    <option name="width" value="1197" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -170,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.saveTwoArticlesToMyList">
+  <component name="RunManager" selected="JUnit.Tests.assertElementPresent">
     <configuration name="Tests.amountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
@@ -191,11 +191,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.saveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.assertElementPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="saveFirstArticleToMyList" />
+      <option name="METHOD_NAME" value="assertElementPresent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.assertElementPresent" />
         <item itemvalue="JUnit.Tests.saveTwoArticlesToMyList" />
         <item itemvalue="JUnit.Tests.amountOfEmptySearch" />
         <item itemvalue="JUnit.Tests.testSearchAndCheckSearchWordInResults" />
         <item itemvalue="JUnit.Tests.amountOfNotEmptySearch" />
-        <item itemvalue="JUnit.Tests.saveFirstArticleToMyList" />
       </list>
     </recent_temporary>
   </component>
@@ -245,18 +245,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_amountOfNotEmptySearch - 2019.05.21 at 09h 55m 00s.xml">
-      <configuration name="Tests.amountOfNotEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_amountOfNotEmptySearch - 2019.05.21 at 09h 57m 09s.xml">
-      <configuration name="Tests.amountOfNotEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_amountOfNotEmptySearch - 2019.05.21 at 10h 00m 13s.xml">
-      <configuration name="Tests.amountOfNotEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_amountOfNotEmptySearch - 2019.05.21 at 10h 01m 59s.xml">
-      <configuration name="Tests.amountOfNotEmptySearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests_testSearchAndCheckSearchWordInResults - 2019.05.21 at 10h 55m 57s.xml">
       <configuration name="Tests.testSearchAndCheckSearchWordInResults" configurationId="JUnit" />
     </history-entry>
@@ -275,12 +263,24 @@
     <history-entry file="Tests_saveTwoArticlesToMyList - 2019.05.21 at 11h 43m 53s.xml">
       <configuration name="Tests.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 07m 49s.xml">
+      <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 09m 27s.xml">
+      <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 10m 41s.xml">
+      <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_assertElementPresent - 2019.05.21 at 12h 12m 24s.xml">
+      <configuration name="Tests.assertElementPresent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="-1056" width="1524" height="1057" extended-state="0" />
+    <frame x="368" y="-1056" width="1197" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1808367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23203464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,8 +322,8 @@
     <entry file="file://$PROJECT_DIR$/src/CoreTestCase.java" />
     <entry file="file://$PROJECT_DIR$/src/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="354">
+          <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -332,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        <state relative-caret-position="399">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

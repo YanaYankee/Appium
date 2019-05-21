@@ -7,9 +7,12 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.net.URL;
 
+import static org.openqa.selenium.By.id;
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 
 public class Tests extends Helpers {
@@ -44,7 +47,40 @@ public class Tests extends Helpers {
 
 
 
+//Ex 6 (Test: assert title)
+    @Test
+    public void assertElementPresent() {
 
+            waitForElementAndClick(
+                    By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+                    "Cannot find 'Search Wikipedia' input",
+                    driver,
+                    5
+            );
+            waitForElementAndSendKeys(
+                    By.xpath( "//*[contains(@text, 'Search Wikipedia')]"),
+                    "Java",
+                    "Cannot find searched input",
+                    driver,
+                    5
+            );
+            waitForElementAndClick(
+                    By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']" ),
+                    "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                    driver,
+                    7
+            );
+
+// **************** Assert that title is present ***********************
+
+        int amount_of_search_results = getAmountOfElements(
+                By.id("org.wikipedia:id/view_page_title_text")
+        );
+        Assert.assertTrue("No title elements are found or there are more than 1 title on the article",
+                amount_of_search_results == 1
+        );
+
+    }
 
 
 //Ex 5 (Test: save 2 Articles to reading list)
@@ -73,7 +109,7 @@ public class Tests extends Helpers {
                 7
         );
         waitForElementPresent(
-                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                id(  "org.wikipedia:id/view_page_title_text" ),
                 "Cannot find article title",
                 driver,
                 15
@@ -104,13 +140,13 @@ public class Tests extends Helpers {
                 7
         );
         waitForElementAndClick(
-                By.id( "org.wikipedia:id/onboarding_button" ),
+                id( "org.wikipedia:id/onboarding_button" ),
                 "Cannot find 'Got it' overlay ",
                 driver,
                 5
         );
         waitForElementAndClear(
-                By.id( "org.wikipedia:id/text_input" ),
+                id( "org.wikipedia:id/text_input" ),
                 "Cannot find input article folder",
                 driver,
                 5
@@ -125,7 +161,7 @@ public class Tests extends Helpers {
 //    );
 
         String name_of_folder = "Learning programming";
-        waitForElementAndSetValue( By.id( "org.wikipedia:id/text_input" ),
+        waitForElementAndSetValue( id( "org.wikipedia:id/text_input" ),
                 "Cannot send keys to name of folder input"+ name_of_folder,
                 driver,
                 5,
@@ -139,7 +175,7 @@ public class Tests extends Helpers {
         );
 
         waitForElementAndClick(
-               By.id("org.wikipedia:id/menu_page_search"),
+               id("org.wikipedia:id/menu_page_search"),
                 "Cannot click Search btn",
                 driver,
                 5
@@ -162,7 +198,7 @@ public class Tests extends Helpers {
         );
 
         waitForElementPresent(
-                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                id(  "org.wikipedia:id/view_page_title_text" ),
                 "Cannot find article title",
                 driver,
                 15
@@ -243,7 +279,7 @@ public class Tests extends Helpers {
         );
  //********************************* 4. Visit the article and assert that title text is expected ***************************************
         WebElement title_element = waitForElementPresent(
-                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                id(  "org.wikipedia:id/view_page_title_text" ),
                 "Cannot find article title",
                 driver,
                 15
@@ -296,7 +332,7 @@ public void saveFirstArticleToMyList() {
             7
     );
     waitForElementPresent(
-            By.id(  "org.wikipedia:id/view_page_title_text" ),
+            id(  "org.wikipedia:id/view_page_title_text" ),
             "Cannot find article title",
             driver,
             15
@@ -327,13 +363,13 @@ public void saveFirstArticleToMyList() {
             7
     );
     waitForElementAndClick(
-            By.id( "org.wikipedia:id/onboarding_button" ),
+            id( "org.wikipedia:id/onboarding_button" ),
             "Cannot find 'Got it' overlay ",
             driver,
             5
     );
     waitForElementAndClear(
-            By.id( "org.wikipedia:id/text_input" ),
+            id( "org.wikipedia:id/text_input" ),
             "Cannot find input article folder",
             driver,
             5
@@ -348,7 +384,7 @@ public void saveFirstArticleToMyList() {
 //    );
 
     String name_of_folder = "Learning programming";
-    waitForElementAndSetValue( By.id( "org.wikipedia:id/text_input" ),
+    waitForElementAndSetValue( id( "org.wikipedia:id/text_input" ),
             "Learning programming",
             driver,
             5,
@@ -468,13 +504,13 @@ public void saveFirstArticleToMyList() {
 
         // 1. Searches for "Selenium"
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_container"),
+                id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 15
         );
         waitForElementAndSendKeys(
-                By.id("org.wikipedia:id/search_src_text"),
+                id("org.wikipedia:id/search_src_text"),
                 "Selenium",
                 //       "Seleniumdk;sv", //check the next step really works
 
@@ -484,14 +520,14 @@ public void saveFirstArticleToMyList() {
         );
         //2. Checks if that some articles are enlisted in the search result
         waitForElementPresent(
-                By.id("org.wikipedia:id/search_results_list"),
+                id("org.wikipedia:id/search_results_list"),
                 "Search result is empty",
                 driver,
                 5
         );
 //3. Checks if the word is in each item of search result list
         checkElementsToHaveWord(
-                By.id("org.wikipedia:id/page_list_item_title"),
+                id("org.wikipedia:id/page_list_item_title"),
                 driver,
                 "Selenium");
         //"Selenium"); //to check if test works
@@ -520,7 +556,7 @@ public void saveFirstArticleToMyList() {
                 7
         );
         waitForElementPresent(
-                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                id(  "org.wikipedia:id/view_page_title_text" ),
                 "Cannot find article title",
                 driver,
                 15
@@ -541,13 +577,13 @@ public void saveFirstArticleToMyList() {
 
  // 1. Searches for "Selenium"
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_container"),
+                id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 15
         );
         waitForElementAndSendKeys(
-                By.id("org.wikipedia:id/search_src_text"),
+                id("org.wikipedia:id/search_src_text"),
                "Selenium",
       //       "Seleniumdk;sv", //check the next step really works
 
@@ -557,21 +593,21 @@ public void saveFirstArticleToMyList() {
         );
  //2. Checks if that some articles are enlisted in the search result
         waitForElementPresent(
-                By.id("org.wikipedia:id/search_results_list"),
+                id("org.wikipedia:id/search_results_list"),
                 "Search result is empty",
                 driver,
                 5
         );
 //3. Cancel search
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_close_btn"),
+                id("org.wikipedia:id/search_close_btn"),
                 "Cannot find X to cancel search",
                 driver,
                 5
         );
 //4. Check if search result articles list closed
         waitForElementNotPresent(
-                By.id("org.wikipedia:id/search_results_list"),
+                id("org.wikipedia:id/search_results_list"),
                 "Search list was not closed",
                 driver,
                 5
@@ -582,7 +618,7 @@ public void saveFirstArticleToMyList() {
     @Test
     public void testClearAndCancelSearch() {
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_container"),
+                id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 15
@@ -591,7 +627,7 @@ public void saveFirstArticleToMyList() {
 //Написать функцию, которая проверяет наличие текста “Search…”
 // в строке поиска перед вводом текста и помечает тест упавшим, если такого текста нет.
         WebElement search_text = waitForElementAndClick(
-                By.id("org.wikipedia:id/search_src_text"),
+                id("org.wikipedia:id/search_src_text"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 5
@@ -614,20 +650,20 @@ public void saveFirstArticleToMyList() {
 
 
         waitForElementAndClear(
-                By.id("org.wikipedia:id/search_src_text"),
+                id("org.wikipedia:id/search_src_text"),
                 "Cannot find search field",
                 driver,
                 5
         );
 //to check the test the following method is to be commented
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_close_btn"),
+                id("org.wikipedia:id/search_close_btn"),
                 "Cannot find X to cancel search",
                 driver,
                 5
         );
         waitForElementNotPresent(
-                By.id("org.wikipedia:id/search_close_btn"),
+                id("org.wikipedia:id/search_close_btn"),
                 "X is still present on the page",
                 driver,
                 5
@@ -636,20 +672,20 @@ public void saveFirstArticleToMyList() {
     @Test
     public void testCancelSearch() {
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_container"),
+                id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
                 driver,
                 15
         );
 //to check the test the following method is to be commented
         waitForElementAndClick(
-                By.id("org.wikipedia:id/search_close_btn"),
+                id("org.wikipedia:id/search_close_btn"),
                 "Cannot find X to cancel search",
                 driver,
                 5
         );
         waitForElementNotPresent(
-                By.id("org.wikipedia:id/search_close_btn"),
+                id("org.wikipedia:id/search_close_btn"),
                 "X is still present on the page",
                 driver,
                 5
@@ -703,7 +739,7 @@ public void saveFirstArticleToMyList() {
                 7
         );
         WebElement title_element = waitForElementPresent(
-                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                id(  "org.wikipedia:id/view_page_title_text" ),
                 "Cannot find article title",
                 driver,
                 15
