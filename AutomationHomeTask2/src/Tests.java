@@ -47,6 +47,219 @@ public class Tests extends Helpers {
 
 
 
+//Ex 5 (Test: save 2 Articles to reading list)
+
+
+    @Test
+    //********************************* 1. Save 2 articles to one folder ***************************************
+    public void saveTwoArticlesToMyList() {
+        waitForElementAndClick(
+                By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
+        );
+        waitForElementAndSendKeys(
+                By.xpath( "//*[contains(@text, 'Search Wikipedia')]"),
+                "Java",
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        waitForElementAndClick(
+                By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']" ),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                7
+        );
+        waitForElementPresent(
+                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                "Cannot find article title",
+                driver,
+                15
+        );
+        waitForElementAndClick(
+                By.xpath("//android.widget.ImageView[@content-desc='More options']"),
+                "Cannot find button to open article options",
+                driver,
+                7
+        );
+
+        waitForElementPresent(
+                By.xpath("//*[@text='Change language']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementPresent(
+                By.xpath("//*[@text='Share link']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementAndClick(
+                By.xpath("//*[@text='Add to reading list']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementAndClick(
+                By.id( "org.wikipedia:id/onboarding_button" ),
+                "Cannot find 'Got it' overlay ",
+                driver,
+                5
+        );
+        waitForElementAndClear(
+                By.id( "org.wikipedia:id/text_input" ),
+                "Cannot find input article folder",
+                driver,
+                5
+        );
+//
+//    waitForElementAndSendKeys(
+//            By.id( "org.wikipedia:id/text_input" ),
+//            "Learning programming",
+//            "Cannot put text into articles folder input",
+//            driver,
+//            5
+//    );
+
+        String name_of_folder = "Learning programming";
+        waitForElementAndSetValue( By.id( "org.wikipedia:id/text_input" ),
+                "Cannot send keys to name of folder input"+ name_of_folder,
+                driver,
+                5,
+                name_of_folder);
+
+        waitForElementAndClick(
+                By.xpath("//*[contains(@text, 'OK')]"),
+                "Cannot press 'OK' btn",
+                driver,
+                5
+        );
+
+        waitForElementAndClick(
+               By.id("org.wikipedia:id/menu_page_search"),
+                "Cannot click Search btn",
+                driver,
+                5
+        );
+
+
+        waitForElementAndSendKeys(
+                By.xpath( "//*[contains(@text, 'Search…')]"),
+                "Appium",
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        String name_second_article = "Appium";
+        waitForElementAndClick(
+                By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='"+name_second_article+"']" ),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                7
+        );
+
+        waitForElementPresent(
+                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                "Cannot find article title",
+                driver,
+                15
+        );
+        waitForElementAndClick(
+                By.xpath("//android.widget.ImageView[@content-desc='More options']"),
+                "Cannot find button to open article options",
+                driver,
+                7
+        );
+
+        waitForElementPresent(
+                By.xpath("//*[@text='Change language']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementPresent(
+                By.xpath("//*[@text='Share link']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementAndClick(
+                By.xpath("//*[@text='Add to reading list']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+        waitForElementAndClick(
+                By.xpath("//*[@text='"+ name_of_folder + "']"),
+                "Cannot find button Add to reading list ",
+                driver,
+                7
+        );
+
+        waitForElementAndClick(
+                By.xpath("//android.widget.ImageButton[@content-desc='Navigate up']"),
+                "Cannot close article, cannot find X btn",
+                driver,
+                5
+        );
+        waitForElementAndClick(
+                By.xpath("//android.widget.FrameLayout[@content-desc='My lists']"),
+                "Cannot close article, cannot find X btn",
+                driver,
+                5
+        );
+
+        waitForElementAndClick(
+                By.xpath("//*[@text='"+ name_of_folder + "']"),
+                "Cannot close article, cannot find X btn",
+                driver,
+                10
+        );
+
+
+//********************************* 2. Removes one of articles ***************************************
+
+
+        swipeElementToLeft(
+                By.xpath("//*[@text='Java (programming language)']"),
+                "Cannot find saved article",
+                driver
+        );
+        waitForElementNotPresent(
+                By.xpath("//*[@text='Java (programming language)']"),
+                "Delete saved article",
+                driver,
+                5
+        );
+//********************************* 3. Assert that second is left unremoved ***************************************
+        waitForElementAndClick(
+                By.xpath("//*[@text='"+name_second_article+"']"),
+                "Cannot find saved article",
+                driver,
+                5
+        );
+ //********************************* 4. Visit the article and assert that title text is expected ***************************************
+        WebElement title_element = waitForElementPresent(
+                By.id(  "org.wikipedia:id/view_page_title_text" ),
+                "Cannot find article title",
+                driver,
+                15
+        );
+        String article_title = title_element.getAttribute("text");
+        Assert.assertEquals(
+                "We see unexpected title",
+//                "Java (programming language)1", // to check if test fails
+                name_second_article,
+                article_title
+        );
+
+
+
+
+    }
 
 
 
