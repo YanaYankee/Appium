@@ -1,4 +1,4 @@
-import io.appium.java_client.AppiumDriver;
+
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Assert;
@@ -8,12 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 import java.net.URL;
 
 import static org.openqa.selenium.By.id;
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+
 
 
 public class Tests extends Helpers {
@@ -43,14 +43,50 @@ public class Tests extends Helpers {
         driver.rotate(ScreenOrientation.PORTRAIT);
 
 //*************************************************************
-        
+
     }
     @After
     public void tearDown()
     {
         driver.quit();
     }
+    //Ex 6 (Test: assert title)
+    @Test
+    public void assertArticleTitleIsPresent() {
+        String search_line = "Java";
 
+        waitForElementAndClick(
+                By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+                "Cannot find 'Search Wikipedia' input",
+                driver,
+                5
+        );
+        waitForElementAndSendKeys(
+                By.xpath( "//*[contains(@text, 'Search Wikipedia')]"),
+                "Java",
+                "Cannot find searched input",
+                driver,
+                5
+        );
+        waitForElementAndClick(
+                By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']" ),
+                "Cannot find 'Object-oriented programming language' searching by 'Java'",
+                driver,
+                7
+        );
+        String article_title = "org.wikipedia:id/view_page_title_text";
+        waitForElementPresent(
+                By.id(article_title),
+                "Cannot find empty result label by the request '" + search_line + "'",
+                driver,
+                15
+        );
+// **************** Assert that title is present ***********************
+        assertElementPresent(
+                By.id(article_title),
+                "We have not found results by the request '" + search_line + "'"
+        );
+    }
 
   @Test
   public void testChangeScreenOrientationOnSearchResults(){
@@ -114,40 +150,7 @@ public class Tests extends Helpers {
 
 
 
-//Ex 6 (Test: assert title)
-    @Test
-    public void assertElementPresent() {
 
-            waitForElementAndClick(
-                    By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
-                    "Cannot find 'Search Wikipedia' input",
-                    driver,
-                    5
-            );
-            waitForElementAndSendKeys(
-                    By.xpath( "//*[contains(@text, 'Search Wikipedia')]"),
-                    "Java",
-                    "Cannot find searched input",
-                    driver,
-                    5
-            );
-            waitForElementAndClick(
-                    By.xpath(   "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']" ),
-                    "Cannot find 'Object-oriented programming language' searching by 'Java'",
-                    driver,
-                    7
-            );
-
-// **************** Assert that title is present ***********************
-
-        int amount_of_search_results = getAmountOfElements(
-                By.id("org.wikipedia:id/view_page_title_text")
-        );
-        Assert.assertTrue("No title elements are found or there are more than 1 title on the article",
-                amount_of_search_results == 1
-        );
-
-    }
 
 
 //Ex 5 (Test: save 2 Articles to reading list)
